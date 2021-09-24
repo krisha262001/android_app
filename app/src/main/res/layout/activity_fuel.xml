@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".fuel">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingLeft="40dp"
+        android:orientation="vertical">
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:inputType="date"
+        android:id="@+id/etdate"
+        android:hint="Date"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:inputType="time"
+        android:id="@+id/ettime"
+        android:hint="Time"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:id="@+id/etodo"
+        android:hint="Odo Counter(km)"
+        android:textSize="30sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:id="@+id/etlodo"
+            android:hint="Odo lastReading"
+            android:textSize="30sp"/>
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:id="@+id/etprice"
+            android:hint="Price/L"
+            android:textSize="30sp"/>
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:id="@+id/etfu"
+            android:hint="Fuel(l)"
+            android:textSize="30sp"/>
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:id="@+id/etcost"
+            android:hint="Total Cost"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Submit"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

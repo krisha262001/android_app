@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">19SOECE11036</string>
+    <string name="etuname">Username</string>
+    <string name="etemail">Email</string>
+    <string name="etpass">Password</string>
+    <string name="register">Register</string>
+</resources>
