@@ -4,4 +4,10 @@
     <string name="etemail">Email</string>
     <string name="etpass">Password</string>
     <string name="register">Register</string>
+    <string-array name="listView">
+        <item>Date = 29/09/2021
+              Time = 9:00
+              Totalcost = 6000
+        </item>
+    </string-array>
 </resources>

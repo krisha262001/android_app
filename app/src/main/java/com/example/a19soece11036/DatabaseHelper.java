@@ -27,7 +27,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
                 + COL1 + "INTEGER PRIMARY KEY," + COL2 +
                 "DATE," + COL3 + "TIME," + COL4 + "INTEGER,"
                 + COL5 + "INTEGER" +  COL6 + "INTEGER" +")";
-      //  String createTable = "CREATE TABLE" + TABLE_NAME + "(ID INTEGER PRIMARY KEY AUTOINCREMENT," + COL2 +COL3 +COL4 +COL5++COL6"TEXT)";
+        //  String createTable = "CREATE TABLE" + TABLE_NAME + "(ID INTEGER PRIMARY KEY AUTOINCREMENT," + COL2 +COL3 +COL4 +COL5++COL6"TEXT)";
         sqLiteDatabase.execSQL(createTable);
 
     }

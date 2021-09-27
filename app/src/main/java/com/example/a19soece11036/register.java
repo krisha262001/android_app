@@ -25,24 +25,24 @@ public class register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-            EditText et1 = (EditText) findViewById(R.id.etuname);
-            EditText et2 = (EditText) findViewById(R.id.etemail);
-            EditText et3 = (EditText) findViewById(R.id.etpass);
-            EditText et4 = (EditText) findViewById(R.id.etaregister);
-            RadioButton RB1 = (RadioButton) findViewById(R.id.rbfemale);
-            String tv = "";
-            if (RB1.isChecked()) {
+        EditText et1 = (EditText) findViewById(R.id.etuname);
+        EditText et2 = (EditText) findViewById(R.id.etemail);
+        EditText et3 = (EditText) findViewById(R.id.etpass);
+        EditText et4 = (EditText) findViewById(R.id.etaregister);
+        RadioButton RB1 = (RadioButton) findViewById(R.id.rbfemale);
+        String tv = "";
+        if (RB1.isChecked()) {
             tv += "Female\n";
-            } else {
+        } else {
             tv += "Male\n";
+        }
+        Button register = (Button) findViewById(R.id.etregister);
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent registerIntent = new Intent(register.this,MainActivity.class);
+                startActivity(registerIntent);
             }
-            Button register = (Button) findViewById(R.id.register);
-            register.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent registerIntent = new Intent(register.this,MainActivity.class);
-                    startActivity(registerIntent);
-                }
-            });
+        });
     }
 }
