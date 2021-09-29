@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i;
         switch (view.getId()){
             case R.id.c1:
-                i = new Intent(this,fuel.class);
+                i = new Intent(MainActivity.this,fuel.class);
                 startActivity(i);
                 break;
             case R.id.c2:
-                i = new Intent(this,FuelRecord.class);
+                i = new Intent(MainActivity.this,FuelRecord.class);
                 startActivity(i);
                 break;
         }

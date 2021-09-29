@@ -12,7 +12,8 @@
         <activity android:name=".FuelRecord"></activity>
         <activity android:name=".fuel" />
         <activity android:name=".register" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
