@@ -12,4 +12,74 @@
         android:id="@+id/listView"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0sp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="6/10/21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       7:00
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       7L
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       7000
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       1.6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

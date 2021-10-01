@@ -75,14 +75,5 @@
             android:layout_marginTop="10dp"
             android:text="@string/register"/>
 
-        <EditText
-            android:layout_width="220dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:id="@+id/etaregister"
-            android:hint="Already Registered"
-            android:textSize="20dp"/>
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

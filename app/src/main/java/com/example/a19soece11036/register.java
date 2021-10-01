@@ -28,7 +28,7 @@ public class register extends AppCompatActivity {
         EditText et1 = (EditText) findViewById(R.id.etuname);
         EditText et2 = (EditText) findViewById(R.id.etemail);
         EditText et3 = (EditText) findViewById(R.id.etpass);
-        EditText et4 = (EditText) findViewById(R.id.etaregister);
+        //EditText et4 = (EditText) findViewById(R.id.etaregister);
         RadioButton RB1 = (RadioButton) findViewById(R.id.rbfemale);
         String tv = "";
         if (RB1.isChecked()) {
